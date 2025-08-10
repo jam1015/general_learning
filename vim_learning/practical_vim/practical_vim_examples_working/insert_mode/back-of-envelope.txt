@@ -1,0 +1,2 @@
+# use A    <C-r>=6*35<CR> to evaluate an expression in the expression register
+6 chairs, each costing $35, totals $

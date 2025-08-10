@@ -1,0 +1,155 @@
+\documentclass[a4paper,11pt]{article}
+\hyphenation{acro-nym}
+\usepackage{url}
+\usepackage{xspace}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern} % slightly better modern font
+\usepackage{geometry}
+\geometry{
+    left=.5in,
+    right=.5in,
+    top=.5in,
+    bottom=.5in
+}
+
+%\setlength{\parindent}{0pt}    % turn off indentation
+\setlength{\parskip}{1em}   % how much to indent
+\begin{document}
+\title{Example 3}
+\author{My name}
+\date{January 5, 2011}
+\maketitle
+\section{What's this?}
+This is our
+second document.
+
+It contains two paragraphs. The first line of a paragraph will be
+indented, but not when it follows a heading.
+% Here's a commen% Here's a comment.
+
+
+50\% of \$100 makes \$50.
+More special symbols are \&, \_, \{ and \}.
+
+
+
+
+
+Text can be \emph{emphasized}.
+Besides being \textit{italic} words could be \textbf{bold},
+\textsl{slanted} or typeset in \textsc{Small Caps}.
+Such commands can be \textit{\textbf{nested}}.
+\emph{See how \emph{emphasizing} looks when nested.}
+
+
+
+The best place for downloading LaTeX related software is CTAN.
+Its address is \texttt{http://www.ctan.org}.
+
+
+
+
+
+\section{\sffamily\LaTeX\ resources in the internet}
+The best place for downloading LaTeX related software is CTAN.
+Its address is \ttfamily http://www.ctan.org\rmfamily.
+
+
+{\sffamily Text can be {\em emphasized}.  Besides being {\itshape italic} words could be {\bfseries bold}, {\slshape slanted} or typeset in {\scshape Small Caps}.  
+
+Such commands can be {\itshape\bfseries nested}.}
+
+{\em See ho {\em \bfseries emphasizing} looks when nested.}
+
+
+%\noindent suppresses paragraph indentation
+\noindent \tiny We \scriptsize start \footnotesize \small small \normalsize and \large big \Large Large  \LARGE and bigger \huge and \Huge gigantic!
+
+
+\normalsize
+
+% rare to declare fonts like this
+
+\section{using environments}
+\begin{huge}
+\bfseries % this ends with the environment
+A small example
+%we ended paragraph before font size change
+
+\end{huge}
+\bigskip
+This is just another illustrative example
+\section{creating my own commands}
+
+%\usepackage{xspace}
+%\newcommand{\TUG}{TeX Users Group} %normally declare this in the preamble
+%\newcommand{\TUG}{{\scshape \TeX\ Users Group}\xspace} %normally declare this in the preamble
+\newcommand{\TUG}{\textsc{ \TeX\ Users Group}\xspace} %normally declare this in the preamble
+
+\subsection{ The \TUG}
+% we have to use the space
+The \TUG is an organization for people who are interested in \TeX\ or \LaTeX
+\subsection{commands with arguments}
+%\newcommand{\keyword}[1]{\textbf{#1}}
+\newcommand{\keyword}[2][\bfseries]{{#1#2}}
+
+\keyword{Grouping} by curly braces limits the \keyword[\itshape]{scope} of \keyword{declarations}
+
+\newcommand{\site}[2][https]{\textit{\texttt{#1://#2}}}
+
+\site[ftp]{linux.org}
+
+
+\url{www.nick.com}
+
+%\parbox[alignment][height][inner alignment]{width}{text}
+%inner aligntment is c,t,b,s center, top bottom stretch
+% alignment is t or b
+
+\subsection{parbox}
+
+for small text boxes
+
+\parbox{3cm}{TUG is an acronym.  It means \TeX\ Users group}
+
+
+text line
+\quad\parbox[b]{1.8cm}{this parbox is aligned at its bottom line}
+\quad\parbox{1.5cm}{center-aligned parbox}
+\quad\parbox[t]{2cm}{another parbox aligned at its top line}
+
+\subsection{minipage}
+
+
+\begin{minipage}{5cm}
+  TUG is an acronym. It means \TeX\ Users Group. \footnote{my first footnote in a while}
+\end{minipage}
+
+That was an environment, not a command. But they take optional arguments and arguments like a command.
+
+\subsection{manual hyphenation}
+% put tht in preamble
+%\hyphenation{acro-nym}
+\parbox{3cm}{TUG is an acronym.  It means \TeX\ Users group}
+\quad
+
+
+\newcommand{\packex}[1]{\texttt{\textbackslash#1}}
+
+can go \texttt{\textbackslash\{indivisible\}} that has no break points so it will not hyphenate
+
+or \texttt{\textbackslash\{mbox\}} which disables all breaks
+
+there is also the \texttt{hyphenat} package. 
+
+\packex{ladeeda}
+
+
+
+
+
+
+
+
+\end{document}
+

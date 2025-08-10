@@ -1,0 +1,8 @@
+Indent the lines with >G
+Delete with x.
+delete lines with dd
+
+Line one
+Line two
+Line three
+Line four

@@ -1,0 +1,1 @@
+preasd <C-f> in cmdline mode to open command buffer

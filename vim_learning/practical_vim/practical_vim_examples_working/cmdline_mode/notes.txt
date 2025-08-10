@@ -1,0 +1,51 @@
+======================= TEXT COMMANDS
+[range]delete[reg] :d
+[range]yank[reg] :y
+[line]pu[reg]t :pu
+[range]copy{address} :co :t
+[range]move{address} :m
+[range]join :j or :j! to have no spaces
+
+These onese have their own sections will add details later.
+[range]:normal :norm   we excecute a normal command on these lines; can be anything starting in normal mode
+[range]:substitute :s
+[range]:global
+
+
+can use line numbers to jump around
+can use patterns: delimit with /
+can use offsets
+can be applied to visual mode
+
+======================LOCATION CODES
+
+1 first line
+$ last line
+0 line above first line
+. current line
+'m line containing mark m
+'< beginning of visual selectin
+'> end of visual selection
+%  the entire file
+
+@: repeats last ex command
+@@ repeates last repeated ex command
+
+
+press <C-f> in cmdline mode to open command buffer
+
+:! runs through external command
+can use % as current buffer ie: :! python %
+
+can use :shell
+or :term depending on version of vim we're using
+:read ![shell command] put stdout to terminal; can also be used to read a different buffer into current file
+:write ![shell command] uses current buffer as stdin [probably better to use %, unless
+there is something I don't understand like one being linewise and the other not]
+
+
+-------cmdline_mode/emails.csv
+first name,last name,email
+john,smith,john@example.com
+drew,neil,drew@vimcasts.org
+jane,doe,jane@example.com

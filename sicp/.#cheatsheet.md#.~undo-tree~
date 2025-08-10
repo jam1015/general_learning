@@ -1,0 +1,15 @@
+(undo-tree-save-format-version . 1)
+"75dd69d6b1fee9dd04143fb384c8b7dfdc9dea6b"
+[nil nil nil nil (26677 63843 866099 629000) 0 nil]
+([nil nil ((80 . 87) (79 . 80) (t 26677 58907 735602 559000) 55) nil (26677 63843 866096 343000) 0 nil])
+([nil nil ((108 . 112) (87 . 108) (t 26677 63843 866703 554000)) nil (26677 63850 361228 569000) 0 nil])
+([nil nil (("
+C-c M-r   eval-expression-and-go" . 79) (undo-tree-id12 . -1) (undo-tree-id13 . -32) (undo-tree-id14 . -32) (undo-tree-id15 . -1) (undo-tree-id16 . -32) (undo-tree-id17 . -33) 111 (t 26677 63850 359998 639000)) nil (26677 63881 875297 728000) 0 nil])
+([nil nil (("
+" . -87) (54 . 88) 50) nil (26677 63881 875285 935000) 0 nil])
+([nil nil ((41 . 49) (" -last rebion" . 41) (undo-tree-id7 . -12) (undo-tree-id8 . -13) (undo-tree-id9 . -13) (undo-tree-id10 . -13) (undo-tree-id11 . -13)) nil (26677 63881 875285 645000) 0 nil])
+([nil nil (("expression" . 65) (undo-tree-id4 . -9) (undo-tree-id5 . -6) (undo-tree-id6 . -10) 71) nil (26677 63881 875284 513000) 0 nil])
+([nil nil ((65 . 66) ("-" . 65) (undo-tree-id3 . -1)) nil (26677 63881 875283 301000) 0 nil])
+([nil nil ((65 . 72)) nil (26677 63881 875282 669000) 0 nil])
+([nil current (("e" . 72) (undo-tree-id0 . 1) (undo-tree-id1 . -1) (undo-tree-id2 . -1)) nil (26677 63881 875279 654000) 0 nil])
+nil

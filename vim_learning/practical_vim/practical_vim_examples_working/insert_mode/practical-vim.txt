@@ -1,0 +1,8 @@
+#start on P; yt, jA, <C-r> 0
+#note that that is within insert mode
+#can also do <C-r><C-p> 0      which will paste more quickly/with no formatting errors but might just go back to normal mode instead of doing this;
+
+Can also practice doing a yank with <C-o> y  and then pasting from insert as detailed above
+
+Practical Vim, by Drew Neil
+Read Drew Neil's 

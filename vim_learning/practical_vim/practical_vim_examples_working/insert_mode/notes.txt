@@ -1,0 +1,6 @@
+use <C-h>
+    <C-w>
+    <C-u>
+
+
+use <C-o> to run a single command in normal mode and jump back to insert mode: this is called insert-normal mode

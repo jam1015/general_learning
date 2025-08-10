@@ -1,0 +1,9 @@
+use n and ctrl a/x to add and subtract from numbers
+.blog, .news { background-image: url(/sprite.png); }
+.blog { background-position: -180px 0px }
+.blog { background-position: 0px -360px }
+.blog { background-position: -180px 150px }
+.blog { background-position: 180px -8px }
+.blog { background-position: 0px 0px }
+.blog { background-position: 185px 0px }
+.news { background-position: -180px 0px }

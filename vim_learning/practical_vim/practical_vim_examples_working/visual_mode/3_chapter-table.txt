@@ -1,0 +1,9 @@
+#visual block (3j), x... to delete whitespace 
+#gv r | to insert divider
+# go to top line an yyp, Vr- to do a linewise insertion of -
+
+
+Chapter            Page
+Normal mode          15
+Insert mode          31
+Visual mode          44

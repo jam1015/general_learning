@@ -1,0 +1,8 @@
+/*
+start on top images, <C-v> jje for block, c, insert name of new directory (looks like its on top 
+line only) then escape to insert everywhere
+ *  */
+
+li.one   a{ background-image: url('/ladeedaa/sprite.png'); }
+li.two   a{ background-image: url('/ladeedaa/sprite.png'); }
+li.three a{ background-image: url('/ladeedaa/sprite.png'); }

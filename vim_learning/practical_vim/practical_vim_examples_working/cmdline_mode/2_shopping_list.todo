@@ -1,0 +1,9 @@
+# :8copy. to add nails to hardware store section; t is synonym for copy
+# use linewise visual mode and :m$ to move he selection to the end; dGp is an alternative
+# can in general use :m (move) and :t (duplicate)
+Shopping list
+    Hardware Store
+        Buy new hammer
+    Beauty Parlor
+        Buy nail polish remover
+        Buy nails
